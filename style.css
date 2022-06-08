@@ -1,0 +1,64 @@
+body {
+  background-color: lightgray;
+  height: 750px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+img{
+  width:110%;
+  height:110%;
+  object-fit: contain
+}
+
+p {
+    color:#9fa4a9;
+}
+
+.vizualization {
+  width:100%;
+  height:100%;
+}
+
+.left-image {
+    float: left;
+}
+
+.active, .panel:hover {
+    border-color:#3459e6;
+    border-style: solid;
+}
+
+.small-img {
+    width:90%;
+    height:90%;
+    object-fit: contain
+}
+
+.title {
+  color:#3459e6;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+
+.box {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px 30px 10px;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.table {
+  font-size: 15px;
+  border-top-color: rgb(255, 255, 255);
+}
+
+thead {
+    color: #9fa4a9;
+    font-weight: bolder;
+}
+
